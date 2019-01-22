@@ -1,7 +1,7 @@
 # Entity Aspect Linking System
 The acpect here is referred to the section headings of a page from WikiPedia.
 
-This branch is for EXTERNAL use. DO NOT MERGE.
+This repo is an implementation of entity aspect linking, which is used as a part of Toolkit on.
 
 ## Getting started
 download model file in 'model' folder
