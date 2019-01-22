@@ -29,7 +29,7 @@ class Tfidf:
         :return:tfidf model after fit,
         :type: TfidfVectorizer object
         '''
-        nlp_preprocessing.nlp_pipeline(docs)
+        docs = nlp_preprocessing.nlp_pipeline(docs)
         self.vectorizer.fit(docs)
         self.logger.info('finished training tfidf model')
 
