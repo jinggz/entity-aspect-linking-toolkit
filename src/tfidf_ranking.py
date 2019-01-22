@@ -7,7 +7,6 @@ import logging
 import nlp_preprocessing
 from wiki_crawler import EntityPage
 
-main_logger = logging.getLogger('main')
 
 class TfidfRanking:
     def __init__(self, model_file):
