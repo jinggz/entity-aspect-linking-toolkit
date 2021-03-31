@@ -1,7 +1,7 @@
 --index-url https://pypi.python.org/simple/
 
 python-dateutil==2.7.5
-lxml==4.2.5
+lxml==4.6.3
 boto==2.49.0
 boto3==1.9.83
 botocore==1.12.83
